@@ -13,8 +13,8 @@ namespace WebApplication
         protected void Page_Load(object sender, EventArgs e)
         {
             //Connect to the DB
-            string connStr = "Server=172.28.230.12;Database=BuildingAccess;User ID=AUSBU3; Pasword=Bobby.Darin.Beyond.The.Sea;";
-            SqlConnection conn = new SqlConnection(connStr);
+           // string connStr = "Server=172.28.230.11;Database=BuildingAccess;User ID=AUSBU2; Password=Frank.Sinatra.New.York.New.York;";
+            SqlConnection conn = new SqlConnection(@"Data Source=(local)\sqlexpress;Database=BuildingAccess;Integrated Security = True");
 
             conn.Open();
 
