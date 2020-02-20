@@ -38,10 +38,9 @@ namespace WebApplication
 
         private string PassOrFail(int IDScanned)
         {
-            if ()
-            {
+           
                 return "Pass";
-            }
+            
             
         }
 
